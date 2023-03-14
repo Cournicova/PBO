@@ -5,9 +5,9 @@ class Mahasiswa:
         self.jurusan = jurusan
     
     def get_info(self):
-        print(f"Nama: {self.nama}")
-        print(f"Umur: {self.umur}")
-        print(f"Jurusan: {self.jurusan}")
+        print(f"Nama    : {self.nama}")
+        print(f"Umur    : {self.umur}")
+        print(f"Jurusan : {self.jurusan}")
     
     def set_nama(self, nama_baru):
         self.nama = nama_baru
