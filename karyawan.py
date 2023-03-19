@@ -23,6 +23,8 @@ class Karyawan:
         print("---------------------")
         print(f"Jadwal Masuk: {jadwal_masuk}")
         print(f"Jadwal Libur: {jadwal_libur}")
+        print()
+        print(f"*"*50)
 
 # Objek 1
 karyawan1 = Karyawan("K001", "Manajer", "Kontrak 2 tahun", 2018)
